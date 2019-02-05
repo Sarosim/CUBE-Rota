@@ -1,0 +1,12 @@
+
+
+/* NAVBAR */
+
+i{
+    font-size: 2em;
+}
+a span .message-count-circle {
+    
+    background-color: #e62525;
+    box-shadow: 2px 2px 5px 1px black;
+}
