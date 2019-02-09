@@ -19,18 +19,20 @@
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <!--Logo-->
         <a class="navbar-brand" href="#">
-                <img src="assets/Cube.jpg" alt="CUBE Logo" style="width:45px;">
-                <span>CUBE rota</span>
-            </a>
+            <img src="assets/Cube.jpg" alt="CUBE Logo" style="width:45px;">
+            <span>CUBE rota</span>
+        </a>
         <!--collapsible navbar-->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <!--beletenni egy media queryt és kisebbre venni a betűméretet 'sm' méretnél mert a fekvő mobilon nem lesz belőle hamburger button...-->
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <!--EZT KI KÉNE INNEN SZERNI ÉS css-ből megformázni-->
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a> <!--            Ezt az ACTIVE cuccot minden oldalon pozicionálni!!!-->
+                    <a class="nav-link active" href="#">Home</a>
+                    <!--            Ezt az ACTIVE cuccot minden oldalon pozicionálni!!!-->
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbardropindustries" data-toggle="dropdown">
@@ -69,37 +71,91 @@
                     </a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="#lang_eng">English</a>
-                        <a class="dropdown-item disabled" href="#lang_eng">Russian</a>
-                        <a class="dropdown-item disabled" href="#lang_eng">French</a>
-                        <a class="dropdown-item disabled" href="#lang_eng">Serbian</a>
-                        <a class="dropdown-item disabled" href="#lang_eng">Hungarian</a>
-                        <a class="dropdown-item disabled" href="#lang_eng">Romanian</a>
-                        <a class="dropdown-item disabled" href="#lang_eng">Polish</a>
+                        <a class="dropdown-item disabled" href="#lang_ru">Russian</a>
+                        <a class="dropdown-item disabled" href="#lang_fr">French</a>
+                        <a class="dropdown-item disabled" href="#lang_it">Italian</a>
+                        <a class="dropdown-item disabled" href="#lang_sr">Serbian</a>
+                        <a class="dropdown-item disabled" href="#lang_hu">Hungarian</a>
+                        <a class="dropdown-item disabled" href="#lang_ro">Romanian</a>
+                        <a class="dropdown-item disabled" href="#lang_pl">Polish</a>
                     </div>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" data-toggle="tooltip" data-placement="top" title="Messages">
-                        <i class="fas fa-envelope"></i>
-                        <span class="message-count-circle">0</span>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                    <i class="fas fa-user"></i>
+                    <span>Sign up</span>
                     </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="fas fa-user"></i>
-                        <span>Sign up</span>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                    <i class="fas fa-sign-in-alt"></i>
+                    <span>Sign in</span>
                     </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="fas fa-sign-in-alt"></i>
-                        <span>Sign in</span>
-                    </a>
-                </li>
-                
+                    </li>
             </ul>
-        </div>
         </div>
     </nav>
     <!--********************************************** /. NAVBAR  *********************************************************-->
+    <div>dskjfhglakjdfladjfa</div>
+    <br>
+    <div>ds</div>
+    <!--**********************************************  FOOTER  *********************************************************-->
+    <footer class="conainer-fluid">
+        <div class="social-footer">
+            <a id="facebook" target="_blank" href="#" data-toggle="tooltip" title="Visit us on Facebook">
+                    <i class="fab fa-facebook"></i>
+            </a>
+            <a id="instagram" target="_blank" href="#" data-toggle="tooltip" title="Visit us on Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a id="linkedin" target="_blank" href="#" data-toggle="tooltip" title="Visit us on LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a id="twitter" target="_blank" href="#" data-toggle="tooltip" title="Visit us on Twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a id="youtube" target="_blank" href="#" data-toggle="tooltip" title="Visit us on YouTube">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+        <div class="container text-footer">
+            <div class="row">
+            <div class="footer-items col-sm-6 col-md-3">
+                <h5>Legal</h5>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms&Conditions</a></li>
+                    <li><a href="#">Using Your Data</a></li>
+                    <li><a href="#">Legal Info</a></li>
+                </ul>
+            </div>
+            <div class="footer-items col-sm-6 col-md-3">
+                <h5>About</h5>
+                <ul>
+                    <li><a href="#">Company Info</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-items col-sm-6 col-md-3">
+                    <h5>Help / Support</h5>
+                    <ul>
+                        <li><a href="#">Search FAQ</a></li>
+                        <li><a href="#">User Manual</a></li>
+                    </ul>
+            </div>
+            <div class="footer-items col-sm-6 col-md-3">
+                <h5>Contact</h5>
+                <ul>
+                    <li><a href="#">Phone:<br>+44 020 1234 5678</a></li>
+                    <li><a href="mailto:">E-mail:<br>info@CubeSolutions.co.uk</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+       
+    </footer>
+    <!--********************************************** /. FOOTER  *********************************************************-->
+
 
 </body>
 
