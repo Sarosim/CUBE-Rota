@@ -1,21 +1,28 @@
-/* NAVBAR */
+body {
+    background-color: #000;
+}
+
+/*                                               NAVBAR */
 
 .navbar {
+    font-size: 1em;
+    height: 70px;
+    background-color: #444;
+    z-index: 1;
+    color: red;
+}
+
+.navbar-brand {
     font-size: 1.3em;
+    font-family: 'Fredericka the Great', cursive;
 }
 
-nav i {
-    width: 30px;
-    margin: 1px;
-    height: 30px;
+.navbar img {
+    margin-top: -1px;
+    width: 75px;
 }
 
-a span .message-count-circle {
-    background-color: #e62525;
-    box-shadow: 2px 2px 5px 1px black;
-}
-
-/* FOOTER */
+/*                                               FOOTER */
 
 footer {
     background-color: #666;
@@ -59,7 +66,7 @@ footer i {
 .text-footer {
     color: #ccc;
     margin-top: 20px;
-    padding-top:10px;
+    padding-top: 10px;
 }
 
 .text-footer h5 {
@@ -77,6 +84,64 @@ footer i {
     margin: 0;
     padding: 0;
 }
-.footer-items{
+
+.footer-items {
     height: 160px;
+}
+
+/*                                              INDEX.HTML     */
+
+.callout-container {
+    height: 100vh;
+    background: url('../assets/2018-agenda-black-273011.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*Horizontally centering*/
+    position: relative;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    text-shadow: 7px 0px 24px #f0ad4e;
+    font-size: 4rem;
+    font-family: 'Fredericka the Great', cursive;
+    color: #000;
+}
+
+.lead {
+    font-family: 'Exo', sans-serif;
+    color: #000;
+    text-shadow: 3px 0px 12px #f0ad4e;
+    font-size: 2rem;
+}
+
+.button-container {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.button-left {
+    display: inline-flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.button-right {
+    display: inline-flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.jumbotron .btn {
+    width: 150px;
 }
