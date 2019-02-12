@@ -1,5 +1,5 @@
 body {
-    background-color: #000;
+    background-color: #eeddcc;
 }
 
 /*                                               NAVBAR */
@@ -89,11 +89,12 @@ footer i {
     height: 160px;
 }
 
-/*                                              INDEX.HTML     */
+/*                                              Callout Container    */
 
 .callout-container {
     height: 100vh;
-    background: url('../assets/2018-agenda-black-273011.jpg') no-repeat center center fixed;
+    background: url('../assets/agenda-2295709_1920.jpg') no-repeat center center fixed;
+    /*2018-agenda-black-273011.jpg*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -107,6 +108,8 @@ footer i {
 
 .jumbotron {
     background-color: transparent;
+    padding-right: 55px;
+    padding-left: 55px;
 }
 
 .jumbotron h1 {
@@ -114,6 +117,12 @@ footer i {
     font-size: 4rem;
     font-family: 'Fredericka the Great', cursive;
     color: #000;
+}
+
+.block-divider {
+    height: 2px;
+    border: 0;
+    background-color: #f0ad4e;
 }
 
 .lead {
@@ -144,4 +153,18 @@ footer i {
 
 .jumbotron .btn {
     width: 150px;
+}
+
+/*                                                 Quotes*/
+
+.quote-card-img{
+    display: table-cell;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #ffeedd;
+}
+.blockquote{
+    display: table-cell;
+    
 }
