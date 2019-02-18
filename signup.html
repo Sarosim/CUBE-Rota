@@ -12,27 +12,25 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Exo:600,800|Fredericka+the+Great" rel="stylesheet">
 </head>
 
 <body>
     <!--************************************************  NAVBAR  *********************************************************-->
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-md navbar-dark">
         <!--Logo-->
         <a class="navbar-brand" href="#">
-            <img src="assets/Cube.jpg" alt="CUBE Logo" style="width:45px;">
-            <span>CUBE rota</span>
+            <img src="assets/cube.png" alt="CUBE Logo">
+            <span class="m-auto">CUBE rota</span>
         </a>
         <!--collapsible navbar-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> 
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <!--EZT KI KÉNE INNEN SZERNI ÉS css-ből megformázni-->
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
-                    <!--            Ezt az ACTIVE cuccot minden oldalon pozicionálni!!!-->
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbardropindustries" data-toggle="dropdown">
@@ -43,6 +41,7 @@
                         <a class="dropdown-item" href="industries.html#Hotel">Hotel/Hospitality</a>
                         <a class="dropdown-item" href="industries.html#Agency">Agency</a>
                         <a class="dropdown-item" href="industries.html#Catering">Catering</a>
+                        <a class="dropdown-item" href="industries.html#Cafe">Restaurant/Café/Bar</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -64,7 +63,7 @@
             </ul>
 
             <!--  **** Buttons on the right  ****  -->
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbardroplanguages" data-toggle="dropdown"> 
                     <i class="fas fa-language"></i>
@@ -80,13 +79,13 @@
                         <a class="dropdown-item disabled" href="#lang_pl">Polish</a>
                     </div>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link active" href="#">
                     <i class="fas fa-user"></i>
                     <span>Sign up</span>
                     </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="login.html">
                     <i class="fas fa-sign-in-alt"></i>
                     <span>Sign in</span>
                     </a>
@@ -95,13 +94,46 @@
         </div>
     </nav>
     <!--********************************************** /. NAVBAR  *********************************************************-->
-    <div>dskjfhglakjdfladjfa</div>
-    <br>
-    <div>ds</div>
+    <!--**********************************************  sign up FORM  ********************************************************-->
+
+    <div class="container-fluid callout-container">
+        <section class="container-fluid wrapper center-text pb-3 pb-md-5">
+            <div class="container logo-container py-1 py-md-4 mx-auto">
+                <img class="mb-3 mx-auto w-25" src="/assets/cube.png" alt="logo"></img>
+                <h3>Sign Up for FREE</h3>
+            </div>
+            <form class="container whiteform mx-auto pb-3">
+                <div class="form-group pt-2">
+                    <label for="name1">Name:</label>
+                    <input type="text" class="form-control" name="name1" placeholder="your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="company1">Company:</label>
+                    <input type="text" class="form-control" name="company1" placeholder="your company" required>
+                </div>
+                <div class="form-group">
+                    <label for="email2">E-mail address:</label>
+                    <input type="email" class="form-control" name="email2" placeholder="your e-mail" required>
+                </div>
+                <div class="form-group">
+                    <label for="email3">Confirm e-mail address:</label>
+                    <input type="email" class="form-control" name="email3" placeholder="your e-mail again" required>
+                </div>
+                <div class="form-group">
+                    <label for="createpassword">Create your password:</label>
+                    <input type="text" class="form-control" name="createpassword" placeholder="*********" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Sign Up</button>
+
+            </form>
+        </section>
+    </div>
+    <!--********************************************** /. sign up FORM  *****************************************************-->
+
     <!--**********************************************  FOOTER  *********************************************************-->
     <footer class="conainer-fluid">
         <div class="social-footer">
-            <a id="facebook" target="_blank" href="#" data-toggle="tooltip" title="Visit us on Facebook">
+            <a class="disabled" id="facebook" target="_blank" href="#" data-toggle="tooltip" title="Visit us on Facebook">
                 <i class="fab fa-facebook"></i>
             </a>
             <a id="instagram" target="_blank" href="#" data-toggle="tooltip" title="Visit us on Instagram">
@@ -119,41 +151,43 @@
         </div>
         <div class="container text-footer">
             <div class="row">
-            <div class="footer-items col-sm-6 col-md-3">
+                <div class="footer-items col-sm-6 col-md-3">
                     <h5>Help / Support</h5>
                     <ul>
                         <li><a href="#">Search FAQ</a></li>
                         <li><a href="#">User Manual</a></li>
                     </ul>
+                </div>
+                <div class="footer-items col-sm-6 col-md-3">
+                    <h5>Contact</h5>
+                    <ul>
+                        <li><a href="#">Phone:<br>+44 020 1234 5678</a></li>
+                        <li><a href="mailto:">E-mail:<br>info@CubeSolutions.co.uk</a></li>
+                    </ul>
+                </div>
+                <div class="footer-items col-sm-6 col-md-3">
+                    <h5>Legal</h5>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms&Conditions</a></li>
+                        <li><a href="#">Using Your Data</a></li>
+                        <li><a href="#">Legal Info</a></li>
+                    </ul>
+                </div>
+                <div class="footer-items col-sm-6 col-md-3">
+                    <h5>About</h5>
+                    <ul>
+                        <li><a href="#">Company Info</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+
             </div>
-            <div class="footer-items col-sm-6 col-md-3">
-                <h5>Contact</h5>
-                <ul>
-                    <li><a href="#">Phone:<br>+44 020 1234 5678</a></li>
-                    <li><a href="mailto:">E-mail:<br>info@CubeSolutions.co.uk</a></li>
-                </ul>
-            </div><div class="footer-items col-sm-6 col-md-3">
-                <h5>Legal</h5>
-                <ul>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms&Conditions</a></li>
-                    <li><a href="#">Using Your Data</a></li>
-                    <li><a href="#">Legal Info</a></li>
-                </ul>
-            </div>
-            <div class="footer-items col-sm-6 col-md-3">
-                <h5>About</h5>
-                <ul>
-                    <li><a href="#">Company Info</a></li>
-                    <li><a href="#">Press</a></li>
-                    <li><a href="#">Careers</a></li>
-                </ul>
-            </div>
-            
         </div>
-        </div>
-       
+
     </footer>
     <!--********************************************** /. FOOTER  *********************************************************-->
 </body>
+
 </html>

@@ -104,19 +104,20 @@ footer i {
     justify-content: center;
     /*Horizontally centering*/
     position: relative;
+    padding: 0;
 }
 
 .jumbotron {
     background-color: transparent;
-    padding-right: 55px;
-    padding-left: 55px;
+    padding-right: 155px;
+    padding-left: 155px;
 }
 
 .jumbotron h1 {
     text-shadow: 7px 0px 24px #f0ad4e;
     font-size: 4rem;
     font-family: 'Fredericka the Great', cursive;
-    color: #000;
+    color: #004290;
 }
 
 .block-divider {
@@ -127,7 +128,7 @@ footer i {
 
 .lead {
     font-family: 'Exo', sans-serif;
-    color: #000;
+    color: #004290;
     text-shadow: 3px 0px 12px #f0ad4e;
     font-size: 2rem;
 }
@@ -155,16 +156,86 @@ footer i {
     width: 150px;
 }
 
+.card-arrowdown {
+    position: relative;
+    top: -40px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 30px;
+    color: #004290;
+}
+
 /*                                                 Quotes*/
 
-.quote-card-img{
-    display: table-cell;
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    background-color: #ffeedd;
+.quotes-container {
+    background-color: #333;
+    color: wheat;
 }
-.blockquote{
+
+.quote-card-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #60b4e4;
+}
+
+/*.blockquote{
     display: table-cell;
     
+}*/
+
+/*                                                 Industries*/
+
+.industries-container {
+    background-color: wheat;
+    color: #333;
+}
+
+.industry-card {
+    height: 230px;
+}
+
+
+
+
+
+.imagewrapper img {
+    width: 250px;
+    margin: 20px;
+}
+
+/*                                                   LOGIN*/
+
+.wrapper {
+    height: 100vh;
+    
+    background-color: rgba(0, 0, 0, .4);
+    display: block;
+}
+
+.logo-container h3 {
+    color: white;
+}
+
+.whiteform {
+    background-color: white;
+    max-width: 500px;
+    border-radius: 7px;
+    box-shadow: 5px 10px 15px 15px rgba(0, 0, 0, 0.15);
+}
+
+.logo-container {
+    text-align: center;
+    max-width: 500px;
+}
+
+.loginselect {
+    text-align: center;
+}
+
+.whiteform .btn {
+    border-radius: 10px;
 }
