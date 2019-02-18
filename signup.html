@@ -19,7 +19,7 @@
     <!--************************************************  NAVBAR  *********************************************************-->
     <nav class="navbar navbar-expand-md navbar-dark">
         <!--Logo-->
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
             <img src="assets/cube.png" alt="CUBE Logo">
             <span class="m-auto">CUBE rota</span>
         </a>
@@ -37,7 +37,7 @@
                     Industries
                     </a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="industries.html#Retail">Retail</a>
+                        <a class="dropdown-item" href="industries.html#">Retail</a>
                         <a class="dropdown-item" href="industries.html#Hotel">Hotel/Hospitality</a>
                         <a class="dropdown-item" href="industries.html#Agency">Agency</a>
                         <a class="dropdown-item" href="industries.html#Catering">Catering</a>
@@ -49,7 +49,7 @@
                     Features
                     </a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="features.html#T&A">Time & Attendance</a>
+                        <a class="dropdown-item" href="features.html#">Time & Attendance</a>
                         <a class="dropdown-item" href="features.html#Scheduling">Scheduling</a>
                         <a class="dropdown-item" href="features.html#Clocking">Clock-in/out</a>
                         <a class="dropdown-item" href="features.html#Holiday">Holiday requests/approvals</a>
@@ -121,7 +121,8 @@
                 </div>
                 <div class="form-group">
                     <label for="createpassword">Create your password:</label>
-                    <input type="text" class="form-control" name="createpassword" placeholder="*********" required>
+                    <input type="text" class="form-control" name="createpassword" aria-describedby="pswrule" placeholder="*********" required>
+                    <small id="pswrule" class="form-text text-muted">Passwords MUST be at least 8 characters long AND MUST contain at least one non-alfabetic character</small>
                 </div>
                 <button type="submit" class="btn btn-primary btn-block">Sign Up</button>
 

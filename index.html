@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0<!--, shrink-to-fit=no-->">
     <title>Cube Rota | Cost effective way of managing your rota</title>
     <link rel="shortcut icon" href="assets/cube_icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.2.1/litera/bootstrap.min.css">
@@ -12,7 +12,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Exo:600,800|Fredericka+the+Great" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
 </head>
 
 <body>
@@ -38,7 +38,7 @@
                     Industries
                     </a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="industries.html#Retail">Retail</a>
+                        <a class="dropdown-item" href="industries.html#">Retail</a>
                         <a class="dropdown-item" href="industries.html#Hotel">Hotel/Hospitality</a>
                         <a class="dropdown-item" href="industries.html#Agency">Agency</a>
                         <a class="dropdown-item" href="industries.html#Catering">Catering</a>
@@ -50,7 +50,7 @@
                     Features
                     </a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="features.html#T&A">Time & Attendance</a>
+                        <a class="dropdown-item" href="features.html#">Time & Attendance</a>
                         <a class="dropdown-item" href="features.html#Scheduling">Scheduling</a>
                         <a class="dropdown-item" href="features.html#Clocking">Clock-in/out</a>
                         <a class="dropdown-item" href="features.html#Holiday">Holiday requests/approvals</a>
@@ -86,7 +86,7 @@
                     </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="login.html">
                     <i class="fas fa-sign-in-alt"></i>
                     <span>Sign in</span>
                     </a>
@@ -98,52 +98,51 @@
 
     <!--**********************************************  JUMBOTRON  *********************************************************-->
     <div class="container-fluid callout-container">
-        <div class="row">
-            <div class="col-xs-12">
-                <section class="callout jumbotron text-center">
-                    <h1 class="d-inline">The cost effective way of planning your rota </h1>
-                    <h1 class="d-none d-md-inline"> and scheduling your staff</h1>
-                    <hr class="block-divider">
-                    <p class=lead>
-                        Sign up for 30 days <strong>FREE</strong> trial
-                        <span class="d-none d-sm-inline"> or schedule a demo session with us</span>
-                        <strong>now!</strong>
-                    </p>
-                    <div class="container button-container">
-                        <div class="row">
-                            <div class="col-xs-6 col-sm-6 button-left">
-                                <!--EZZEL MÉG VAGY JÁTSZANI KELL VAGY KITÖRÖLNI, MERT ÍGY NEM RESPONSIVE-->
-                                <a class="btn btn-warning btn-lg" href="signup.html" role="button">Sign up</a>
-                            </div>
-                            <div class="col-xs-6 col-sm-6 button-right">
-                                <a class="btn btn-warning btn-lg" href="bookademo.html" role="button">Book a Demo</a>
-                            </div>
-                        </div>
+        <section class="callout jumbotron text-center">
+            <h1 class="d-inline">The cost effective way of planning your rota </h1>
+            <h1 class="d-none d-md-inline"> and scheduling your staff</h1>
+            <hr class="my-1 my-md-3 block-divider">
+            <p class=lead>
+                Sign up for 30 days <strong>FREE</strong> trial
+                <span class="d-none d-md-inline"> or schedule a demo session with us</span>
+                <strong>now!</strong>
+            </p>
+            <div class="container button-container py-1 py-md-5">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <!--placeholder for larger devices-->
+                    <div class="col-12 col-md-4 mybutton">
+                        <a class="btn btn-warning btn-lg" href="signup.html" role="button">Sign up</a>
                     </div>
-                </section>
+                    <div class="col-12 col-md-4 mybutton">
+                        <a class="btn btn-warning btn-lg" href="bookademo.html" role="button">Book a Demo</a>
+                    </div>
+                    <div class="col-md-2"></div>
+                    <!--placeholder for larger devices-->
+                </div>
             </div>
-            <div class="container arrowdown">
-                <!--ide kell egy lefelé mtató nyíl ami mozog is... (TomTom) -->
-                <div class="card-arrowdown"><i class="fas fa-arrow-down"></i></div>
-            </div>
-        </div>
+        </section>
     </div>
+    <!--<div class="container arrowdown">
+                <div class="card-arrowdown"><i class="fas fa-arrow-down"></i></div>
+            </div>-->
+    
     <!--******************************************** /. JUMBOTRON  *********************************************************-->
 
     <!--**********************************************   QUOTES  *********************************************************-->
     <div class="container quotes-container">
         <section class="quotes">
             <div class="row">
-                <div class="col-xs-12">
+                <div class="col-12">
                     <div class="section-title mt-5 mb-3 text-center">
                         <h2>QUOTES:</h2>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-md-6">
+                <div class="col-12 col-md-6">
                     <div class="media quote-card">
-                        <div class="mr-3 quote-card-picture">
+                        <div class="d-none d-lg-block mr-3 quote-card-picture">
                             <img class="quote-card-img" src="../assets/coding-profile-picture.png" alt="profile picture"></img>
                         </div>
                         <blockquote class="blockquote">
@@ -152,9 +151,9 @@
                         </blockquote>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-6">
+                <div class="col-12 col-md-6">
                     <div class="media quote-card">
-                        <div class="mr-3 quote-card-picture">
+                        <div class="d-none d-lg-block mr-3 quote-card-picture">
                             <img class="quote-card-img" src="../assets/Headshot-guy.jpg" alt="profile picture"></img>
                         </div>
                         <blockquote class="blockquote">
@@ -172,14 +171,14 @@
     <div class="container industries-container">
         <section class="industries">
             <div class="row">
-                <div class="col-xs-12">
-                    <div class="section-title mt-5 mb-3 text-center">
+                <div class="col-12">
+                    <div class="section-title mt-4 mb-3 text-center">
                         <h2>INDUSTRIES:</h2>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col xs-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="industry-card">
                         <h3 class="industry-card-title">
                             <i class="fas fa-shopping-basket"></i>
@@ -188,10 +187,10 @@
                         <p class="industry-card-text mb-0">
                             Lorem ipsum dolor sit amet, consectetuesed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nost
                         </p>
-                        <a class="crosslink" href="#">...more details</a>
+                        <a class="crosslink" href="industries.html#">...more details</a>
                     </div>
                 </div>
-                <div class="col xs-12 col-md-6 col-lg-4">
+                <div class="d-none d-md-block col-md-6 col-lg-4">
                     <div class="industry-card">
                         <h3 class="industry-card-title">
                             <i class="fas fa-bed"></i>
@@ -200,22 +199,22 @@
                         <p class="industry-card-text mb-0">
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniamt
                         </p>
-                        <a class="crosslink" href="#">...more details</a>
+                        <a class="crosslink" href="industries.html#Hotel">...more details</a>
                     </div>
                 </div>
-                <div class="col xs-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="industry-card">
                         <h3 class="industry-card-title">
                             <i class="fas fa-address-card"></i>
                             <span class="industry-name">Agency</span>
                         </h3>
                         <p class="industry-card-text mb-0">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing ÍAELfgéLEqa gfoieHI gha aoirg őaog  wew wwwww watgwTG, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nost
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing ÍAELfgéLEqa gfoieHI gha aoirg őaog wew wwwww watgwTG, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nost
                         </p>
-                        <a class="crosslink" href="#">...more details</a>
+                        <a class="crosslink" href="industries.html#Agency">...more details</a>
                     </div>
                 </div>
-                <div class="col xs-12 col-md-6 col-lg-4">
+                <div class="d-none d-md-block col-12 col-md-6 col-lg-4">
                     <div class="industry-card">
                         <h3 class="industry-card-title">
                             <i class="fas fa-shipping-fast"></i>
@@ -224,10 +223,10 @@
                         <p class="industry-card-text mb-0">
                             Lorem ipsum dolor sit amet, consectetuer adimmy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nost
                         </p>
-                        <a class="crosslink" href="#">...more details</a>
+                        <a class="crosslink" href="industries.html#Catering">...more details</a>
                     </div>
                 </div>
-                <div class="col xs-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="industry-card">
                         <h3 class="industry-card-title">
                             <i class="fas fa-cocktail"></i>
@@ -236,7 +235,7 @@
                         <p class="industry-card-text mb-0">
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nost
                         </p>
-                        <a class="crosslink" href="#">...more details</a>
+                        <a class="crosslink" href="industries.html#Cafe">...more details</a>
                     </div>
                 </div>
             </div>
@@ -248,14 +247,14 @@
     <div class="container features-container">
         <section class="features">
             <div class="row">
-                <div class="col-xs-12">
+                <div class="col-12">
                     <div class="section-title mt-5 mb-3 ">
-                        <h2>FEATURES</h2>
+                        <h2>FEATURES:</h2>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col xs-12 col-md-6 col-lg-4">
+                <div class="d-none d-md-block col-12 col-md-6 col-lg-4">
                     <div class="feature-card">
                         <h3 class="feature-card-title">
                             <i class="fas fa-calendar-check"></i>
@@ -264,10 +263,10 @@
                         <p class="feature-card-text mb-0">
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nost
                         </p>
-                        <a class="crosslink" href="#">...more details</a>
+                        <a class="crosslink" href="features.html#">...more details</a>
                     </div>
                 </div>
-                <div class="col xs-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature-card">
                         <h3 class="feature-card-title">
                             <i class="fas fa-calendar-alt"></i>
@@ -276,10 +275,10 @@
                         <p class="feature-card-text mb-0">
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nost
                         </p>
-                        <a class="crosslink" href="#">...more details</a>
+                        <a class="crosslink" href="features.html#Scheduling">...more details</a>
                     </div>
                 </div>
-                <div class="col xs-12 col-md-6 col-lg-4">
+                <div class="d-none d-md-block col-12 col-md-6 col-lg-4">
                     <div class="feature-card">
                         <h3 class="feature-card-title">
                             <i class="fas fa-stopwatch"></i>
@@ -288,10 +287,10 @@
                         <p class="feature-card-text mb-0">
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nost
                         </p>
-                        <a class="crosslink" href="#">...more details</a>
+                        <a class="crosslink" href="features.html#Clocking">...more details</a>
                     </div>
                 </div>
-                <div class="col xs-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature-card">
                         <h3 class="feature-card-title">
                             <i class="fas fa-umbrella-beach"></i>
@@ -300,10 +299,10 @@
                         <p class="feature-card-text mb-0">
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nost
                         </p>
-                        <a class="crosslink" href="#">...more details</a>
+                        <a class="crosslink" href="features.html#Holiday">...more details</a>
                     </div>
                 </div>
-                <div class="col xs-12 col-md-6 col-lg-4">
+                <div class="d-none d-md-block col-12 col-md-6 col-lg-4">
                     <div class="feature-card">
                         <h3 class="feature-card-title">
                             <i class="fas fa-upload"></i>
@@ -312,10 +311,10 @@
                         <p class="feature-card-text mb-0">
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nost
                         </p>
-                        <a class="crosslink" href="#">...more details</a>
+                        <a class="crosslink" href="features.html#Publish">...more details</a>
                     </div>
                 </div>
-                <div class="col xs-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature-card">
                         <h3 class="feature-card-title">
                             <i class="fas fa-bell"></i>
@@ -324,7 +323,7 @@
                         <p class="feature-card-text mb-0">
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nost
                         </p>
-                        <a class="crosslink" href="#">...more details</a>
+                        <a class="crosslink" href="features.html#Reminder">...more details</a>
                     </div>
                 </div>
             </div>
@@ -337,7 +336,7 @@
     <div class="container customers-container">
         <section class="customers">
             <div class="row">
-                <div class="col-xs-12">
+                <div class="col-12">
                     <div class="section-title center-text">
                         <h2>Our solutions are trusted by:</h2>
                     </div>

@@ -24,7 +24,7 @@
     <!--************************************************  NAVBAR  *********************************************************-->
     <nav class="navbar navbar-expand-md navbar-dark">
         <!--Logo-->
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
             <img src="assets/cube.png" alt="CUBE Logo">
             <span class="m-auto">CUBE rota</span>
         </a>
@@ -42,7 +42,7 @@
                     Industries
                     </a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="industries.html#Retail">Retail</a>
+                        <a class="dropdown-item" href="industries.html#">Retail</a>
                         <a class="dropdown-item" href="industries.html#Hotel">Hotel/Hospitality</a>
                         <a class="dropdown-item" href="industries.html#Agency">Agency</a>
                         <a class="dropdown-item" href="industries.html#Catering">Catering</a>
@@ -54,7 +54,7 @@
                     Features
                     </a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="features.html#T&A">Time & Attendance</a>
+                        <a class="dropdown-item" href="features.html#">Time & Attendance</a>
                         <a class="dropdown-item" href="features.html#Scheduling">Scheduling</a>
                         <a class="dropdown-item" href="features.html#Clocking">Clock-in/out</a>
                         <a class="dropdown-item" href="features.html#Holiday">Holiday requests/approvals</a>
@@ -103,41 +103,42 @@
     <!--**********************************************  LOGIN FORM  ********************************************************-->
 
     <div class="container-fluid callout-container">
-                <section class="container-fluid wrapper center-text pb-3 pb-md-5">
-                    <div class="container logo-container py-1 py-md-5 mx-auto">
-                        <img class="mb-3 mx-auto w-25" src="/assets/cube.png" alt="logo"></img>
-                        <h3 class="mt-3">Please sign in</h3>
-                    </div>
-                    <form class="container whiteform mx-auto pb-3">
-                        <div class="loginselect py-3">
-                            <div class="form-check-inline radiobuttons mx-auto">
-                                <label class="form-check-label mr-2">
+        <section class="container-fluid wrapper center-text pb-3 pb-md-5">
+            <div class="container logo-container py-1 py-md-5 mx-auto">
+                <img class="mb-3 mx-auto w-25" src="/assets/cube.png" alt="logo"></img>
+                <h3 class="mt-3">Please sign in</h3>
+            </div>
+            <form class="container whiteform mx-auto pb-3">
+                <div class="loginselect py-3">
+                    <div class="form-check-inline radiobuttons mx-auto">
+                        <label class="form-check-label mr-2">
                         <input type="radio" class="form-check-input" name="optradio" value="company" checked>Company Login
                     </label>
-                                <div class="form-check-inline">
-                                    <label class="form-check-label ml-2">
+                        <div class="form-check-inline">
+                            <label class="form-check-label ml-2">
                         <input type="radio" class="form-check-input" name="optradio" value="staff" >Staff Login
                     </label>
-                                </div>
-                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="email1">E-mail:</label>
-                            <input type="email" class="form-control" name="email1" placeholder="your e-mail" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="password1">Password:</label>
-                            <input type="password" class="form-control" name="password1" placeholder="*********" required>
-                        </div>
-                        <div class="form-group form-check">
-                            <label class="form-check-label">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email1">E-mail:</label>
+                    <input type="email" class="form-control" name="email1" placeholder="your e-mail" required>
+                </div>
+                <div class="form-group">
+                    <label for="password1">Password:</label>
+                    <input type="password" class="form-control" name="password1" aria-describedby="forgotpsw" placeholder="*********" required>
+                    <a href="#"><small id="forgotpsw" class="form-text text-muted">Forgot password?</small></a>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
                 <input class="form-check-input" type="checkbox" name="remember1"> Remember me
                 </label>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block">Login</button>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Login</button>
 
-                    </form>
-                </section>
+            </form>
+        </section>
     </div>
     <!--********************************************** /. LOGIN FORM  *****************************************************-->
     <!--**********************************************  FOOTER  *********************************************************-->

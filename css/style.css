@@ -1,5 +1,6 @@
 body {
     background-color: #eeddcc;
+    
 }
 
 /*                                               NAVBAR */
@@ -102,21 +103,16 @@ footer i {
     display: flex;
     align-items: center;
     justify-content: center;
-    /*Horizontally centering*/
     position: relative;
     padding: 0;
 }
 
 .jumbotron {
     background-color: transparent;
-    padding-right: 155px;
-    padding-left: 155px;
 }
 
 .jumbotron h1 {
     text-shadow: 7px 0px 24px #f0ad4e;
-    font-size: 4rem;
-    font-family: 'Fredericka the Great', cursive;
     color: #004290;
 }
 
@@ -127,36 +123,19 @@ footer i {
 }
 
 .lead {
-    font-family: 'Exo', sans-serif;
     color: #004290;
     text-shadow: 3px 0px 12px #f0ad4e;
     font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
 }
 
-.button-container {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.button-left {
+.mybutton {
     display: inline-flex;
-    padding: 10px;
     justify-content: space-around;
 }
 
-.button-right {
-    display: inline-flex;
-    padding: 10px;
-    justify-content: space-around;
-}
-
-.jumbotron .btn {
-    width: 150px;
-}
-
-.card-arrowdown {
+/*.card-arrowdown {
     position: relative;
     top: -40px;
     width: 100px;
@@ -166,13 +145,13 @@ footer i {
     text-align: center;
     padding-top: 30px;
     color: #004290;
-}
+}*/
 
 /*                                                 Quotes*/
 
 .quotes-container {
-    background-color: #333;
-    color: wheat;
+    background-color: rgb(36, 68, 123);
+    color: rgb(219, 187, 132);
 }
 
 .quote-card-img {
@@ -182,37 +161,57 @@ footer i {
     background-color: #60b4e4;
 }
 
-/*.blockquote{
-    display: table-cell;
-    
-}*/
+.blockquote-footer {
+    color: rgb(219, 187, 132);
+}
 
-/*                                                 Industries*/
+/*                                                         Industries*/
 
 .industries-container {
-    background-color: wheat;
-    color: #333;
+    background-color: rgb(219, 187, 132);
+    color: rgb(36, 68, 123);
 }
 
 .industry-card {
-    height: 230px;
+    height: 250px;
+    text-align: justify;
 }
 
+/*                                                             Features*/
 
+.features-container {
+    background-color: rgb(36, 68, 123);
+    color: rgb(219, 187, 132);
+}
 
+.features-card {
+    height: 250px;
+}
 
+p{
+    text-align: justify;
+}
+
+.circle {
+    font-size: 5rem;
+    float: left;
+    height: 120px;
+    width: 120px;
+    shape-outside: circle();
+}
+/*                                             HAPPY Customers*/
 
 .imagewrapper img {
     width: 250px;
     margin: 20px;
 }
 
-/*                                                   LOGIN*/
+/*                                                   LOGIN SIGNIN BOOK a DEMO */
 
 .wrapper {
     height: 100vh;
-    
-    background-color: rgba(0, 0, 0, .4);
+
+    background-color: rgba(0, 0, 0, .6);
     display: block;
 }
 
@@ -239,3 +238,5 @@ footer i {
 .whiteform .btn {
     border-radius: 10px;
 }
+
+
