@@ -1,6 +1,6 @@
 body {
     background-color: #eeddcc;
-    
+
 }
 
 /*                                               NAVBAR */
@@ -124,28 +124,52 @@ footer i {
 
 .lead {
     color: #004290;
-    text-shadow: 3px 0px 12px #f0ad4e;
+    text-shadow: 2px 2px 20px #f0ad4e;
     font-size: 2rem;
     text-align: center;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .mybutton {
-    display: inline-flex;
+    display: flex;
     justify-content: space-around;
+    padding: 10px;
+
 }
 
-/*.card-arrowdown {
-    position: relative;
-    top: -40px;
-    width: 100px;
-    height: 100px;
+a.btn{
+    width: 150px;
+    z-index: 5;
+}
+
+.arrow-transparent-holder {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    height: 70vh;
+    width: 100vw;
+    justify-content: center;
+    background-color: transparent;
+    -webkit-transition: all 600ms cubic-bezier(0.735, 1.575, 0.430, -0.040);
+    -moz-transition: all 600ms cubic-bezier(0.735, 1.575, 0.430, -0.040);
+    -o-transition: all 600ms cubic-bezier(0.735, 1.575, 0.430, -0.040);
+    transition: all 600ms cubic-bezier(0.735, 1.575, 0.430, -0.040);
+}
+
+.arrow-transparent-holder:hover {
+    bottom: 8vh;
+}
+
+.card-arrow {
+    margin-top: 60vh;
+    width: 15vw;
+    height: 10vh;
+    min-height: 80px;
     background-color: green;
-    font-size: xx-large;
+    font-size: 60px;
     text-align: center;
-    padding-top: 30px;
     color: #004290;
-}*/
+}
 
 /*                                                 Quotes*/
 
@@ -188,7 +212,7 @@ footer i {
     height: 250px;
 }
 
-p{
+p {
     text-align: justify;
 }
 
@@ -199,6 +223,7 @@ p{
     width: 120px;
     shape-outside: circle();
 }
+
 /*                                             HAPPY Customers*/
 
 .imagewrapper img {
@@ -238,5 +263,3 @@ p{
 .whiteform .btn {
     border-radius: 10px;
 }
-
-
