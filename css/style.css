@@ -95,7 +95,6 @@ footer i {
 .callout-container {
     height: 100vh;
     background: url('../assets/agenda-2295709_1920.jpg') no-repeat center center fixed;
-    /*2018-agenda-black-273011.jpg*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -134,10 +133,9 @@ footer i {
     display: flex;
     justify-content: space-around;
     padding: 10px;
-
 }
 
-a.btn{
+.width150 {
     width: 150px;
     z-index: 5;
 }
@@ -235,7 +233,6 @@ p {
 
 .wrapper {
     height: 100vh;
-
     background-color: rgba(0, 0, 0, .6);
     display: block;
 }
@@ -262,4 +259,28 @@ p {
 
 .whiteform .btn {
     border-radius: 10px;
+}
+
+
+/*                                                         PRICING                 */
+
+.card-header {
+    font-size: 1.5em;
+}
+
+
+.card-title {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.card-subtitle {
+    font-size: .3em;
+    font-weight: 200;
+}
+
+.list {
+    list-style-type: none;
+    /*text-align: left;*/
+    text-indent: -1em;
 }
