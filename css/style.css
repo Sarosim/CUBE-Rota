@@ -23,6 +23,11 @@ body {
     width: 75px;
 }
 
+#collapsibleNavbar{
+    background-color: #444;
+    padding-left: 1em;
+}
+
 /*                                               FOOTER */
 
 footer {
