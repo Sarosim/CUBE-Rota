@@ -7,9 +7,8 @@ body {
 
 .navbar {
     font-size: 1em;
-    height: 70px;
     background-color: #444;
-    z-index: 1;
+    z-index: 10;
     color: red;
 }
 
@@ -20,7 +19,7 @@ body {
 
 .navbar img {
     margin-top: -1px;
-    width: 75px;
+    width: 70px;
 }
 
 #collapsibleNavbar{
@@ -96,11 +95,11 @@ footer i {
     height: 160px;
 }
 
-/*                                              Callout Container    */
+/*                       Callout Container    */
 
 .callout-container {
     height: 100vh;
-    background: url('../assets/agenda-2295709_1920.jpg') no-repeat center center fixed;
+    background: url('../agenda-2295709_1920.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -119,6 +118,8 @@ footer i {
 .jumbotron h1 {
     text-shadow: 7px 0px 24px #f0ad4e;
     color: #004290;
+    font-size: 3.4rem;
+    padding-bottom: 4px;
 }
 
 .block-divider {
@@ -130,7 +131,7 @@ footer i {
 .lead {
     color: #004290;
     text-shadow: 2px 2px 20px #f0ad4e;
-    font-size: 2rem;
+    font-size: 2.2rem;
     text-align: center;
     font-weight: 700;
 }
@@ -146,36 +147,7 @@ footer i {
     z-index: 5;
 }
 
-.arrow-transparent-holder {
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    height: 70vh;
-    width: 100vw;
-    justify-content: center;
-    background-color: transparent;
-    -webkit-transition: all 600ms cubic-bezier(0.735, 1.575, 0.430, -0.040);
-    -moz-transition: all 600ms cubic-bezier(0.735, 1.575, 0.430, -0.040);
-    -o-transition: all 600ms cubic-bezier(0.735, 1.575, 0.430, -0.040);
-    transition: all 600ms cubic-bezier(0.735, 1.575, 0.430, -0.040);
-}
-
-.arrow-transparent-holder:hover {
-    bottom: 8vh;
-}
-
-.card-arrow {
-    margin-top: 60vh;
-    width: 15vw;
-    height: 10vh;
-    min-height: 80px;
-    background-color: green;
-    font-size: 60px;
-    text-align: center;
-    color: #004290;
-}
-
-/*                                                 Quotes*/
+/*                                     Quotes*/
 
 .quotes-container {
     background-color: rgb(36, 68, 123);
@@ -193,7 +165,7 @@ footer i {
     color: rgb(219, 187, 132);
 }
 
-/*                                                         Industries*/
+/*                                Industries*/
 
 .industries-container {
     background-color: rgb(219, 187, 132);
@@ -205,7 +177,7 @@ footer i {
     text-align: justify;
 }
 
-/*                                                             Features*/
+/*                                 Features*/
 
 .features-container {
     background-color: rgb(36, 68, 123);
@@ -228,14 +200,14 @@ p {
     shape-outside: circle();
 }
 
-/*                                             HAPPY Customers*/
+/*                          HAPPY Customers*/
 
 .imagewrapper img {
     width: 250px;
     margin: 20px;
 }
 
-/*                                                   LOGIN SIGNIN BOOK a DEMO */
+/*                    LOGIN SIGNIN BOOK a DEMO */
 
 .wrapper {
     height: 100vh;
@@ -268,7 +240,7 @@ p {
 }
 
 
-/*                                                         PRICING                 */
+/*                       PRICING  */
 
 .card-header {
     font-size: 1.5em;
