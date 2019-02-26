@@ -1,4 +1,5 @@
-# The effiecient rota
+# The efficient rota
+[(site available here)](https://github.com/Sarosim/CUBE-Rota/blob/master/Index.html)
 
 Preparing the optimal coverage of hourly paid staff for any events, shifts, projects or particular tasks is a combination of 
 best assumptions for the amount of workload and the scheduling of workforce with the appropriate knowledge and experience.
@@ -8,7 +9,7 @@ Therefore technology assisting this process can:
  - deliver cost savings by eliminating overstaffing
  - improve outcome by making sure proper knowledge is always present
  - save time for managers planning their rota and preparing their staff schedule
- - streamline communications of schedules and minimize misinformation, miscummunication and misunderstandings
+ - streamline communications of schedules and minimize misinformation, miscommunication and misunderstandings
  - reduce administration costs and time spent on payroll and time & attendance reporting
  - evaluate, follow up and further optimize efficiency
  - provide benchmarking
@@ -25,11 +26,12 @@ or multi-unit operators either in retail or hospitality.
 This website is for **operations managers** of retail networks, hotels or catering companies as well as for **store/restaurant managers**, recruitment **agencies** and **caterers**.
 
 - As a Retail Operations Manager of a network of 100 stores I'd like to reduce my labour costs while maintaining or improving sales results and customer satisfaction. 
-- As the manager of an artisian coffee shop, I want to schedule enough people for th emorning peak periords while keeping my labour costs under control
+- As the manager of an artesian coffee shop, I want to schedule enough people for the morning peak periods while keeping my labour costs under control.
 - As a manager at a recruitment agency, I want to reduce the time needed to prepare all the schedules as well as switch the administration from paper to electronic and eliminate manual work.
-- As a caterer, I want to  use a single platform to allocate proper labour force for my functions and communicate the shift details to staff in a documented way, making sure all of them are aware of and confirm the detailsof their shifts.
+- As a caterer, I want to use a single platform to allocate proper labour force for my functions and communicate the shift details to staff in a documented way, 
+making sure all of them are aware of and confirm the details of their shifts.
 
-As part of the design process I created mockups using the trial version of Balsamiq Cloud:
+As part of the design process I created mock-ups using the trial version of Balsamiq Cloud:
 - [The main page](https://github.com/Sarosim/CUBE-Rota/blob/master/assets/Documents/Home.png)
 - [Industries page](https://github.com/Sarosim/CUBE-Rota/blob/master/assets/Documents/Industries.png)
 - [Features page](https://github.com/Sarosim/CUBE-Rota/blob/master/assets/Documents/Features.png)
@@ -38,30 +40,34 @@ As part of the design process I created mockups using the trial version of Balsa
 - [Sign up form page](https://github.com/Sarosim/CUBE-Rota/blob/master/assets/Documents/Signup.png)
 - [Booking a demo page](https://github.com/Sarosim/CUBE-Rota/blob/master/assets/Documents/BookaDemo.png)
 
-_The mockups contain a message indicator in the navbar, although I later decided not to include it in the production, because that is a feature for users already logged in._
+_The mock-ups contain a message indicator in the navbar, although I later decided not to include it in the production, because that is a feature for users already logged in._
 
-I used mobile first approach as these pages can serve as landing pages for future advertisements, most of the features (to be developped later) will need desktop first approach,
+I used mobile first approach as these pages can serve as landing pages for future advertisements, most of the features (to be developed later) will need desktop first approach,
 as they are too complex to use on mobile and the users are office based.
 
-As a landing page, the most important goals are to convey the message why this is good for the operations manager, the store manager, the caterer or the manager of an agency **and** to be eye-cathing, visually appealing.
+As a landing page, the most important goals are to convey the message why this is good for the operations manager, the store manager, the caterer 
+or the manager of an agency **and** to be eye-catching, visually appealing.
 
 Pictures are telling 1000 words, so I choose a picture with a diary, a desk, a pen and a phone to generate the impression of **office work**, **scheduling** and **communication**. 
 The picture is from Pixabay, where it is available *Free for commercial use No attribution required.*
 
 The headline message tells:
 - "Cost effective" - so you can save money
-- "Plan your rota and Schedule your staff" - clearly stetes what it does.
+- "Plan your rota and Schedule your staff" - clearly states what it does.
 
 Further indications of 'what', 'why' and 'for whom' are included on the home page, supported by showing the logos of and quoting existing happy users.<br> 
 Links to more detailed explanations of the features, benefits and industry specifics are organized on separate pages, with links from the main page.<br>
 At any given point, the user exactly knows how they can learn more and what actions can be taken (how they can start using the system or contact someone). 
 
 In order to visually differentiate sections, the font colour of the jumbotron is used as background colour for the section right underneath it, 
-while using its complementer colour to create maximum visibility and harmony. The font colour and the background colour are alternated for the following sections to clearly differentiate them. 
+while using its complementary colour to create maximum visibility and harmony. The font colour and the background colour are alternated for the 
+following sections to clearly differentiate them. 
 
-The background image of the index page is used for the login, sign in and demo requesting pages to keep consistency and minimise file size, although the forms are placed on a less transparent background to make them pop up.
+The background image of the index page is used for the login, sign in and demo requesting pages to keep consistency and minimise file size, although the 
+forms are placed on a less transparent background to make them pop up.
 
-The primary market for the site is London - where the proportion of staff with English as a second language is relatively high in retail and hospitalty - therefore providing language options for the potential users is essential. It also serves the future aim of opening for overseas businesses.
+The primary market for the site is London - where the proportion of staff with English as a second language is relatively high in retail and hospitality - therefore providing 
+language options for the potential users are essential. It also serves the future aim of opening for overseas businesses.
 
 ## Features
 
@@ -69,9 +75,21 @@ The primary market for the site is London - where the proportion of staff with E
 
 #### Explanation of industry specific advantages
 
+Industry specific advantages are explained on a dedicated page, with short descriptions and links to them on the home page.
+
 #### Explanation of site features
 
-#### Pricing package
+Similarly to the industry specific advantages, key features of the solution are explained on its dedicated page, with short descriptions and links to them on the home page.
+
+#### User Stories 
+
+User stories are shown in quotes, as well as in a linked video and an audio file. 
+There are also logos of current subscribers to the service shown at the bottom of the home page. 
+
+#### Pricing packages
+
+There are three levels the service can be used. The basic features are offered for free, more advanced features are offered for £1 per user per month and the full, 
+customised version is to be negotiated. These packages are clearly demonstrated on the pricing page.
 
 #### Booking a demo
 
@@ -79,27 +97,36 @@ Potential users can fill in a form to get someone demonstrating and explaining h
 
 #### Signing up for the service
 
+At any given point on the site, users may decide to start using the service, they can jump to the sign up form with one click.
+
 #### LogIn
 
-A page for existing users to log in. There are two main type of users:
+A page for existing users to log in. There are two main types of users:
 - managers preparing the rota and the schedules and
 - staff receiving the info about their rota,
 
-therefore users have to pre-select which group the belong to - using radio buttons on the top of the log in form.
+therefore users have to pre-select which group they belong to - using radio buttons on the top of the log in form.
 
 ### Features left to implement
 
 #### Language selection
 
-#### Social media and footer links
+The feature is indicated in the navbar by its icon and dropdown list of languages, but only English is available for now, the rest of the list is disabled.
+
+#### Social media and other footer links
+
+As there are no social media accounts set up for the currently fictional company, nor legal documents or detailed company info 
+available, the links point to the home page (social links open in a new browser window - as it is more appropriate for them).
 
 #### Form submission
 
 The scope of the current project is to create the user interface with the appropriate design as per the UX, without backend support the forms can not yet be submitted.
 
-### Technologies used
+## Technologies used
 
-#### Bootstrap 4, Bootswatch Litera theme
+#### Bootstrap 4, Bootswatch 
+
+I used Bootstrap 4.2.1 framework and applied the Litera theme of Bootswatch. 
 
 #### Pixabay
 
@@ -107,7 +134,7 @@ As mentioned earlier at the UX section, the background image is from Pixabay. It
 
 #### Adobe Photoshop CS5
 
-The CUBE logo and the CUBE Solutions Ltd. (fictional company) logo were created in Photoshop.
+The CUBE logo and the CUBE Solutions Ltd. (fictional) company logo were created in Photoshop.
 
 #### Convertico.com
 
@@ -115,11 +142,59 @@ The browser tab icon (favicon) was converted from png by using the Convertico.co
 
 #### Stack Overflow
 
-I used Stack Overflow to fix some bugs or figure out solutions that I couldn't solve on my own.
+I searched Stack Overflow to fix some bugs or figure out solutions that I couldn't solve otherwise.
 
 #### W3Schools.com 
 
-Explanations and examples at W3Schools.com helped me properly shape my code.
+Beside revisiting the modules and checking my notes, explanations and examples at W3Schools.com helped me properly shape my code.
 
+#### Google fonts 
 
+The extra look of the 'CUBE Rota' text in the brand section of the navbar is achieved by using Fredericka the Great font from Google fonts.
 
+#### Font Awesome
+
+Icons used throughout the pages are from Font Awesome Free Version 5.7.2
+
+#### Codrops
+
+Positioning the floating paragraphs around Font Awesome logos in a circular shape is achieved by implementing the idea of Tania Rascia 
+following her "An Introduction to CSS Shapes" tutorial on Codrops.
+
+## Testing
+
+As it is not possible to automate any testing in HTML or CSS, I performed manual tests on available devices 
+(Android 6.0.1 and 8.1, iPhone 4S, SE and 6, Google Chrome 72.0.3626.109 both on laptop and desktop) by checking 
+each section, picture, logo, link and feature.
+
+First results showed some pages overlapping the footer and some internal links pointing to improper parts of the site. 
+All pictures were showing correctly on each device. I fixed the links in the html files and the overlap in the css. 
+
+Trying to test other browsers I've found CrossBrowserTesting Chrome extension and I tested the following browsers with it:
+- Microsoft Edge 18
+- Firefox 65 (64 bit)
+- Opera 58
+- Safari 10.13
+- Internet Explorer 11
+
+The outcome of the test was that the CSS Shapes solution for floating the text in a circular shape around the logos didn't work on Edge and IE, 
+text flow around the logos showed up square. I expected this, as the tutorial stated that "Shapes do not have IE support, and are under consideration for Microsoft Edge". 
+Showing in a square is an okay fallback solution, so this can be treated as a feature rather than a bug :) 
+
+The headline text was rendered in the middle 10% of the page on Internet Explorer. I made a decision to ignore this issue and do not spend time and effort 
+to support an obsolete browser, especially because of the very limited likelihood of businesses still using it. 
+Those who do, may not be the target audience of the solution I offer, anyway.
+
+## Deployment
+
+djfng
+
+## Credits
+
+### Media
+
+As mention earlier, the background image is obtained from Pixabay. The audio and the video is my own recording, directed by and featuring Sofia Sarosi - my daughter.
+
+### Acknowledgement
+
+I'd like to thank to Rick Gallegos - my mentor - for the encouragement to choose my own idea for the project as well as for the support throughout.
