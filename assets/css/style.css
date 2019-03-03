@@ -259,6 +259,16 @@ p {
 
 .list {
     list-style-type: none;
-    /*text-align: left;*/
     text-indent: -1em;
+}
+
+.media-container{
+    text-align: center;
+   
+}
+
+.block-divider2{
+    height: 2px;
+    width: 630px;
+    background-color: rgb(60, 110, 200);
 }
