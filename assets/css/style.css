@@ -1,6 +1,5 @@
 body {
     background-color: #eeddcc;
-
 }
 
 /*                                               NAVBAR */
@@ -8,7 +7,7 @@ body {
 .navbar {
     font-size: 1em;
     background-color: #444;
-    z-index: 10;
+    z-index: 1;
     color: red;
 }
 
@@ -22,7 +21,7 @@ body {
     width: 60px;
 }
 
-#collapsibleNavbar{
+#collapsibleNavbar {
     background-color: #444;
     padding-left: 1em;
 }
@@ -144,7 +143,6 @@ footer i {
 
 .width150 {
     width: 150px;
-    z-index: 5;
 }
 
 /*                                     Quotes*/
@@ -173,7 +171,6 @@ footer i {
 }
 
 .industry-card {
-    height: 250px;
     text-align: justify;
 }
 
@@ -182,10 +179,6 @@ footer i {
 .features-container {
     background-color: rgb(36, 68, 123);
     color: rgb(219, 187, 132);
-}
-
-.features-card {
-    height: 250px;
 }
 
 p {
@@ -203,8 +196,11 @@ p {
 /*                          HAPPY Customers*/
 
 .imagewrapper img {
-    width: 250px;
-    margin: 20px;
+    display: block;
+    max-width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 /*                    LOGIN SIGNIN BOOK a DEMO */
@@ -262,13 +258,23 @@ p {
     text-indent: -1em;
 }
 
-.media-container{
+.media-container {
     text-align: center;
-   
+
 }
 
-.block-divider2{
+.mymedia-subtitle {
+    font-style: italic;
+    margin: auto;
+    text-align: center;
+}
+
+.block-divider2 {
     height: 2px;
     width: 630px;
     background-color: rgb(60, 110, 200);
+}
+
+.feature-card-text {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
 }
