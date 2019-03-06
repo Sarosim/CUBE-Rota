@@ -102,7 +102,7 @@
                 <img class="mb-3 mx-auto w-25" src="/assets/cube.png" alt="logo"></img>
                 <h3>Sign Up for FREE</h3>
             </div>
-            <form class="container whiteform mx-auto pb-3">
+            <form class="container whiteform mx-auto mb-4 mt-2 pb-3">
                 <div class="form-group pt-2">
                     <label for="name1">Name:</label>
                     <input type="text" class="form-control" name="name1" placeholder="your name" required>
@@ -121,8 +121,8 @@
                 </div>
                 <div class="form-group">
                     <label for="createpassword">Create your password:</label>
-                    <input type="text" class="form-control" name="createpassword" aria-describedby="pswrule" placeholder="*********" required>
-                    <small id="pswrule" class="form-text text-muted">Passwords MUST be at least 8 characters long AND MUST contain at least one non-alfabetic character</small>
+                    <input type="password" pattern="(?=.*\d).{8,}" class="form-control" name="createpassword" aria-describedby="pswrule" placeholder="*********" required>
+                    <small id="pswrule" class="form-text text-muted">Passwords MUST be at least 8 characters long AND MUST contain at least one number</small>
                 </div>
                 <button type="submit" class="btn btn-primary btn-block">Sign Up</button>
 

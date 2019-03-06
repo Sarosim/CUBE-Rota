@@ -97,7 +97,7 @@ footer i {
 /*                       Callout Container    */
 
 .callout-container {
-    height: 100vh;
+    min-height: 100vh;
     background: url('../agenda-2295709_1920.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -230,7 +230,7 @@ p {
 /*                    LOGIN SIGNIN BOOK a DEMO */
 
 .wrapper {
-    height: 100vh;
+    min-height: 100vh;
     background-color: rgba(0, 0, 0, .6);
     display: block;
 }
@@ -242,8 +242,11 @@ p {
 .whiteform {
     background-color: white;
     max-width: 500px;
-    border-radius: 7px;
-    box-shadow: 5px 10px 15px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    -webkit-box-shadow: 11px 14px 38px 0px rgba(0,0,0,0.7);
+    -moz-box-shadow: 11px 14px 38px 0px rgba(0,0,0,0.7);
+    box-shadow: 11px 14px 38px 0px rgba(0,0,0,0.7);
+    
 }
 
 .logo-container {
@@ -271,7 +274,9 @@ p {
 
 @media (max-width: 992px) {
   .card-deck .card{
-    min-width: 240px;
+   /* min-width: 240px;*/
+    width: 96%;
+    max-width: 290px;
     margin-bottom: 35px;
     
   }
@@ -285,6 +290,10 @@ p {
 .card-deck .card{
     flex-shrink: 0;
     justify-content: space-between;
+    border-radius: 8px;
+    -webkit-box-shadow: 11px 14px 38px 0px rgba(0,0,0,0.7);
+    -moz-box-shadow: 11px 14px 38px 0px rgba(0,0,0,0.7);
+    box-shadow: 11px 14px 38px 0px rgba(0,0,0,0.7);
 }
 
 .card-header {
@@ -306,8 +315,11 @@ p {
     list-style-type: none;
     text-indent: -1em;
     text-align: left;
-
 }
+.shiftleft{
+    margin-left: -8px;
+}
+
 
 .card-footer{
     background-color: transparent;
