@@ -48,8 +48,8 @@ as they are too complex to use on mobile and the users are office based.
 As a landing page, the most important goals are to convey the message why this is good for the operations manager, the store manager, the caterer 
 or the manager of an agency **and** to be eye-catching, visually appealing.
 
-Pictures are telling 1000 words, so I choose a picture with a diary, a desk, a pen and a phone to generate the impression of **office work**, **scheduling** and **communication**. 
-The picture is from Pixabay, where it is available *Free for commercial use No attribution required.*
+Pictures are telling 1000 words, so I choose a [picture](https://github.com/Sarosim/CUBE-Rota/blob/master/assets/agenda-2295709_1920.jpg) with a diary, a desk, a pen and a phone to generate the impression of **office work**, **scheduling** and **communication**. 
+It is from Pixabay, where it is available *Free for commercial use No attribution required.*
 
 The headline message tells:
 - "Cost effective" - so you can save money
@@ -128,25 +128,11 @@ The scope of the current project is to create the user interface with the approp
 
 I used Bootstrap 4.2.1 framework and applied the Litera theme of Bootswatch. 
 
-#### Pixabay
-
-As mentioned earlier at the UX section, the background image is from Pixabay. It is *Free for commercial use No attribution required.*
-
 #### Adobe Photoshop CS5
 
 The CUBE logo and the CUBE Solutions Ltd. (fictional) company logo were created in Photoshop.
 
-#### Convertico.com
-
-The browser tab icon (favicon) was converted from png by using the Convertico.com site.
-
-#### Stack Overflow
-
-I searched Stack Overflow to fix some bugs or figure out solutions that I couldn't solve otherwise.
-
-#### W3Schools.com 
-
-Beside revisiting the modules and checking my notes, explanations and examples at W3Schools.com helped me properly shape my code.
+***********************************ide beilleszteni, nem linkként a logókat
 
 #### Google fonts 
 
@@ -155,11 +141,6 @@ The extra look of the 'CUBE Rota' text in the brand section of the navbar is ach
 #### Font Awesome
 
 Icons used throughout the pages are from Font Awesome Free Version 5.7.2
-
-#### Codrops
-
-Positioning the floating paragraphs around Font Awesome logos in a circular shape is achieved by implementing the idea of Tania Rascia 
-following her "An Introduction to CSS Shapes" tutorial on Codrops.
 
 ## Testing
 
@@ -193,8 +174,33 @@ djfng
 
 ### Media
 
-As mention earlier, the background image is obtained from Pixabay. The audio and the video is my own recording, directed by and featuring Sofia Sarosi - my daughter.
+As mention earlier, the background image is obtained from Pixabay. 
+
+The audio and the video is my own recording, directed by and featuring Sofia Sarosi - my daughter.
 
 ### Acknowledgement
 
 I'd like to thank to Rick Gallegos - my mentor - for the encouragement to choose my own idea for the project as well as for the support throughout.
+
+********************************ezekről eldönteni, hogy pontosan melyik alfejezete a Credits-nek
+
+#### Codrops
+
+Positioning the floating paragraphs around Font Awesome logos in a circular shape is achieved by implementing the idea of Tania Rascia 
+following her ["An Introduction to CSS Shapes"](https://tympanus.net/codrops/2018/11/29/an-introduction-to-css-shapes/) tutorial on Codrops.
+
+#### Convertico.com
+
+The browser tab icon (favicon) was converted from png by using the Convertico.com site.
+
+#### Stack Overflow
+
+I searched Stack Overflow to fix some bugs or figure out solutions that I couldn't solve otherwise.
+
+#### W3Schools.com 
+
+Beside revisiting the modules and checking my notes, explanations and examples at W3Schools.com helped me properly shape my code.
+
+#### CSSmatic
+
+I used CSSmatic to generate the box-shadow that I like the most.

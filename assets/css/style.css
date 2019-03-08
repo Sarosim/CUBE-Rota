@@ -226,6 +226,10 @@ p {
     background-color: rgb(60, 110, 200);
 }
 
+iframe{
+    border-style: hidden;
+}
+
 
 /*                    LOGIN SIGNIN BOOK a DEMO */
 
