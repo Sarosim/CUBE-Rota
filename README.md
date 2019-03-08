@@ -145,11 +145,16 @@ Icons used throughout the pages are from Font Awesome Free Version 5.7.2
 ## Testing
 
 As it is not possible to automate any testing in HTML or CSS, I performed manual tests on available devices 
-(Android 6.0.1 and 8.1, iPhone 4S, SE and 6, Google Chrome 72.0.3626.109 both on laptop and desktop) by checking 
+(Android 6.0.1 and 8.1, iPhone 4S, SE and 6, Google Chrome 72.0.3626.109 both on laptop and desktop) and asked family members to do the same by checking 
 each section, picture, logo, link and feature.
 
-First results showed some pages overlapping the footer and some internal links pointing to improper parts of the site. 
+First results showed some pages overlapping the footer on smaller devices and some internal links pointing to improper parts of the site. 
 All pictures were showing correctly on each device. I fixed the links in the html files and the overlap in the css. 
+
+I wasn't happy with the display of the pricing cards on mobile or tablet size, therefore modified the flexbox of the pricing page.
+
+Checking the forms I found that the job title field of the *Book a Demo* form was defined as e-mail and one of the e-mail fields was defined as text field, 
+corrected and also solved the form validation for the password field for the sign up by adding input pattern to it.
 
 Trying to test other browsers I've found CrossBrowserTesting Chrome extension and I tested the following browsers with it:
 - Microsoft Edge 18
@@ -164,7 +169,10 @@ Showing in a square is an okay fallback solution, so this can be treated as a fe
 
 The headline text was rendered in the middle 10% of the page on Internet Explorer. I made a decision to ignore this issue and do not spend time and effort 
 to support an obsolete browser, especially because of the very limited likelihood of businesses still using it. 
-Those who do, may not be the target audience of the solution I offer, anyway.
+Those who do, may not be the target audience of the solution I plan to offer, anyway.
+
+Finally I validated each html as well as the css codes with the validator on the W3C website. I corrected the errors or in case of the css, the validator 
+treated the *shape-outside: circle();* as erroor, but I left it unchanged.
 
 ## Deployment
 
