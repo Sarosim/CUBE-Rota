@@ -32,13 +32,13 @@ This website is for **operations managers** of retail networks, hotels or cateri
 making sure all of them are aware of and confirm the details of their shifts.
 
 As part of the design process I created mock-ups using the trial version of Balsamiq Cloud:
-- [The main page](https://github.com/Sarosim/CUBE-Rota/blob/master/assets/Documents/Home.png)
-- [Industries page](https://github.com/Sarosim/CUBE-Rota/blob/master/assets/Documents/Industries.png)
-- [Features page](https://github.com/Sarosim/CUBE-Rota/blob/master/assets/Documents/Features.png)
-- [Pricing page](https://github.com/Sarosim/CUBE-Rota/blob/master/assets/Documents/Pricing.png)
-- [Login page](https://github.com/Sarosim/my-first-website/Documents/LogIn.png)
-- [Sign up form page](https://github.com/Sarosim/CUBE-Rota/blob/master/assets/Documents/Signup.png)
-- [Booking a demo page](https://github.com/Sarosim/CUBE-Rota/blob/master/assets/Documents/BookaDemo.png)
+- [The main page](https://github.com/Sarosim/CUBE-Rota/blob/master/assets/Documents/Mockups/Home.png)
+- [Industries page](https://github.com/Sarosim/CUBE-Rota/blob/master/assets/Documents/Mockups/Industries.png)
+- [Features page](https://github.com/Sarosim/CUBE-Rota/blob/master/assets/Documents/Mockups/Features.png)
+- [Pricing page](https://github.com/Sarosim/CUBE-Rota/blob/master/assets/Documents/Mockups/Pricing.png)
+- [Login page](https://github.com/Sarosim/CUBE-Rota/blob/master/assets/Documents/Mockups/LogIn.png)
+- [Sign up form page](https://github.com/Sarosim/CUBE-Rota/blob/master/assets/Documents/Mockups/Signup.png)
+- [Booking a demo page](https://github.com/Sarosim/CUBE-Rota/blob/master/assets/Documents/Mockups/BookaDemo.png)
 
 _The mock-ups contain a message indicator in the navbar, although I later decided not to include it in the production, because that is a feature for users already logged in._
 
@@ -68,6 +68,8 @@ forms are placed on a less transparent background to make them pop up.
 
 The primary market for the site is London - where the proportion of staff with English as a second language is relatively high in retail and hospitality - therefore providing 
 language options for the potential users are essential. It also serves the future aim of opening for overseas businesses.
+
+I inserted a video and an audio file in order to satisfy the project brief, but these were not part of the original UX. I may decide to keep the idea of the embedded media, if so, the quality needs improvement.
 
 ## Features
 
@@ -182,9 +184,9 @@ djfng
 
 ### Media
 
-As mention earlier, the background image is obtained from Pixabay. 
+As mention earlier, the background image is obtained from Pixabay. Likewise, the 'fake' logos for the *happy customers* section, is by [ptra]("https://pixabay.com/users/ptra-359668/").
 
-The audio and the video is my own recording, directed by and featuring Sofia Sarosi - my daughter.
+The audio and the video is my own recording, the video is directed by and featuring Sofia Sarosi - my daughter.
 
 ### Acknowledgement
 
@@ -212,3 +214,7 @@ Beside revisiting the modules and checking my notes, explanations and examples a
 #### CSSmatic
 
 I used CSSmatic to generate the box-shadow that I like the most.
+
+#### W3C Validator
+
+I validated both the html and the css codes with W3C's validator.
