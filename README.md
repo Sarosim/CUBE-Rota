@@ -135,8 +135,9 @@ I used Bootstrap 4.2.1 framework and applied the Litera theme of Bootswatch.
 
 The CUBE logo and the CUBE Solutions Ltd. (fictional) company logo were created in Photoshop.
 
-![](https://github.com/Sarosim/CUBE-Rota/blob/master/assets/Documents/Mockups/cube.png)
+![Cube logo](assets/cube.png)
 
+![CubeSolutions logo](assets/CubeSolutions_logo_small.png)
 
 ### Google fonts 
 
@@ -180,7 +181,8 @@ treated the *shape-outside: circle();* as error, but I left it unchanged.
 
 ## Deployment
 
-djfng
+I deployed the site on GitHub Pages from the master branch. Any future changes committed to the master branch will automatically update the deployed site.
+By default on GitHub, the landing page must be named index.html, therefore it my not be renamed.
 
 ## Credits
 
@@ -194,31 +196,29 @@ The audio and the video is my own recording, the video is directed by and featur
 
 ### Acknowledgement
 
-I'd like to thank to Rick Gallegos - my mentor - for the encouragement to choose my own idea for the project as well as for the support throughout.
+I'd like to thank to **Rick Gallegos** - my mentor - for the encouragement to choose my own idea for the project as well as for the support throughout.
 
-********************************ezekről eldönteni, hogy pontosan melyik alfejezete a Credits-nek
-
-#### Codrops
+##### Codrops
 
 Positioning the floating paragraphs around Font Awesome logos in a circular shape is achieved by implementing the idea of Tania Rascia 
 following her ["An Introduction to CSS Shapes"](https://tympanus.net/codrops/2018/11/29/an-introduction-to-css-shapes/) tutorial on Codrops.
 
-#### Convertico.com
+##### Convertico.com
 
 The browser tab icon (favicon) was converted from png by using the Convertico.com site.
 
-#### Stack Overflow
+##### Stack Overflow
 
 I searched Stack Overflow to fix some bugs or figure out solutions that I couldn't solve otherwise.
 
-#### W3Schools.com 
+##### W3Schools.com 
 
 Beside revisiting the modules and checking my notes, explanations and examples at W3Schools.com helped me properly shape my code.
 
-#### CSSmatic
+##### CSSmatic
 
 I used CSSmatic to generate the box-shadow that I liked the most.
 
-#### W3C Validator
+##### W3C Validator
 
 I validated both the html and the css codes with W3C's validator.
