@@ -1,5 +1,5 @@
 # The efficient rota
-[(site available here)](https://github.com/Sarosim/CUBE-Rota/blob/master/Index.html)
+[(site available here)](https://sarosim.github.io/CUBE-Rota/index.html)
 
 Preparing the optimal coverage of hourly paid staff for any events, shifts, projects or particular tasks is a combination of 
 best assumptions for the amount of workload and the scheduling of workforce with the appropriate knowledge and experience.
@@ -67,9 +67,10 @@ The background image of the index page is used for the login, sign in and demo r
 forms are placed on a less transparent background to make them pop up.
 
 The primary market for the site is London - where the proportion of staff with English as a second language is relatively high in retail and hospitality - therefore providing 
-language options for the potential users are essential. It also serves the future aim of opening for overseas businesses.
+language options for the potential users is essential. It also serves the future aim of opening for overseas businesses.
 
-I inserted a video and an audio file in order to satisfy the project brief, but these were not part of the original UX. I may decide to keep the idea of the embedded media, if so, the quality needs improvement.
+I inserted a video and an audio file in order to satisfy the project brief, but these were not part of the original UX. 
+I may decide to keep the idea of the embedded media, if so, media quality needs improvement.
 
 ## Features
 
@@ -86,7 +87,7 @@ Similarly to the industry specific advantages, key features of the solution are 
 #### User Stories 
 
 User stories are shown in quotes, as well as in a linked video and an audio file. 
-There are also logos of current subscribers to the service shown at the bottom of the home page. 
+There are also logos of *current subscribers* (fake at the moment obviously) to the service shown at the bottom of the home page. 
 
 #### Pricing packages
 
@@ -126,21 +127,22 @@ The scope of the current project is to create the user interface with the approp
 
 ## Technologies used
 
-#### Bootstrap 4, Bootswatch 
+### Bootstrap 4, Bootswatch 
 
 I used Bootstrap 4.2.1 framework and applied the Litera theme of Bootswatch. 
 
-#### Adobe Photoshop CS5
+### Adobe Photoshop CS5
 
 The CUBE logo and the CUBE Solutions Ltd. (fictional) company logo were created in Photoshop.
 
-***********************************ide beilleszteni, nem linkként a logókat
+![](https://github.com/Sarosim/CUBE-Rota/blob/master/assets/Documents/Mockups/cube.png)
 
-#### Google fonts 
+
+### Google fonts 
 
 The extra look of the 'CUBE Rota' text in the brand section of the navbar is achieved by using Fredericka the Great font from Google fonts.
 
-#### Font Awesome
+### Font Awesome
 
 Icons used throughout the pages are from Font Awesome Free Version 5.7.2
 
