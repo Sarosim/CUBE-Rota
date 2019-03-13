@@ -174,7 +174,7 @@ to support an obsolete browser, especially because of the very limited likelihoo
 Those who do, may not be the target audience of the solution I plan to offer, anyway.
 
 Finally I validated each html as well as the css codes with the validator on the W3C website. I corrected the errors or in case of the css, the validator 
-treated the *shape-outside: circle();* as erroor, but I left it unchanged.
+treated the *shape-outside: circle();* as error, but I left it unchanged.
 
 ## Deployment
 
@@ -185,6 +185,8 @@ djfng
 ### Media
 
 As mention earlier, the background image is obtained from Pixabay. Likewise, the 'fake' logos for the *happy customers* section, is by [ptra]("https://pixabay.com/users/ptra-359668/").
+
+The profile pictures at the Quotes section is my wife and myself, names and the hotel are fictional.
 
 The audio and the video is my own recording, the video is directed by and featuring Sofia Sarosi - my daughter.
 
@@ -213,7 +215,7 @@ Beside revisiting the modules and checking my notes, explanations and examples a
 
 #### CSSmatic
 
-I used CSSmatic to generate the box-shadow that I like the most.
+I used CSSmatic to generate the box-shadow that I liked the most.
 
 #### W3C Validator
 
