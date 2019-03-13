@@ -182,13 +182,13 @@ treated the *shape-outside: circle();* as error, but I left it unchanged.
 ## Deployment
 
 I deployed the site on GitHub Pages from the master branch. Any future changes committed to the master branch will automatically update the deployed site.
-By default on GitHub, the landing page must be named index.html, therefore it my not be renamed.
+By default on GitHub, the landing page must be named index.html, therefore it may not be renamed.
 
 ## Credits
 
 ### Media
 
-As mention earlier, the background image is obtained from Pixabay. Likewise, the 'fake' logos for the *happy customers* section, is by [ptra]("https://pixabay.com/users/ptra-359668/").
+As mention earlier, the background image is obtained from Pixabay. Likewise, the 'fake' logos for the *happy customers* section are from Pixabay, by [ptra]("https://pixabay.com/users/ptra-359668/").
 
 The profile pictures at the Quotes section is my wife and myself, names and the hotel are fictional.
 
